@@ -10,8 +10,11 @@
 ## Installation
 
    1- git clone https://github.com/Ravibhatt1810/sysopctl.git
+   
    2- cd sysopctl
+   
    3- chmod +x scripts/sysopctl.sh
+   
    4- Run ./sysopctl.sh
 
 
