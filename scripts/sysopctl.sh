@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# sysopctl - A custom command for managing system resources and tasks
-# Version: v0.1.0
-
-# Function to display help information
 show_help() {
     echo "sysopctl - A custom command for managing system resources and tasks"
     echo
@@ -29,22 +25,18 @@ show_help() {
     echo "  sysopctl backup /home/user/data"
 }
 
-# Function to display version information
 show_version() {
     echo "sysopctl version 0.1.0"
 }
 
-# Function to list running services
 list_services() {
     systemctl list-units --type=service
 }
 
-# Function to view system load
 view_system_load() {
     uptime
 }
 
-# Function to start a service
 start_service() {
     local service_name="$1"
     if systemctl start "$service_name"; then
@@ -54,7 +46,6 @@ start_service() {
     fi
 }
 
-# Function to stop a service
 stop_service() {
     local service_name="$1"
     if systemctl stop "$service_name"; then
@@ -64,22 +55,18 @@ stop_service() {
     fi
 }
 
-# Function to check disk usage
 check_disk_usage() {
     df -h
 }
 
-# Function to monitor system processes
 monitor_processes() {
     top
 }
 
-# Function to analyze system logs
 analyze_logs() {
     journalctl -p 3 -xb
 }
 
-# Function to backup system files
 backup_files() {
     local backup_path="$1"
     if [ -d "$backup_path" ]; then
@@ -90,7 +77,6 @@ backup_files() {
     fi
 }
 
-# Main script logic
 case "$1" in
     --help)
         show_help
