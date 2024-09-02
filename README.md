@@ -10,7 +10,7 @@
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sysopctl.git
+   git clone https://github.com/Ravibhatt1810/sysopctl.git
 
     Navigate to the project directory:
 
