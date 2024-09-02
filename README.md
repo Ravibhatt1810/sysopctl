@@ -15,7 +15,7 @@
    
    3- chmod +x scripts/sysopctl.sh
    
-   4- Run ./sysopctl.sh
+   4- Run ./sysopctl.sh --help
 
 
 Example:
