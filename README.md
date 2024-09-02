@@ -8,38 +8,13 @@
 - Backup files
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ravibhatt1810/sysopctl.git
 
-    Navigate to the project directory:
+   1- git clone https://github.com/Ravibhatt1810/sysopctl.git
+   2- cd sysopctl
+   3- chmod +x scripts/sysopctl.sh
+   4- Run ./sysopctl.sh
 
-    bash
-
-cd sysopctl
-
-Ensure the script is executable:
-
-bash
-
-    chmod +x scripts/sysopctl.sh
-
-Usage
-
-    To view the manual page:
-
-    bash
-
-man docs/manual/sysopctl.1
-
-To run the script:
-
-bash
-
-./scripts/sysopctl.sh <command>
 
 Example:
-
-bash
-
-./scripts/sysopctl.sh service list
+   
+   ./scripts/sysopctl.sh service list
